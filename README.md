@@ -7,20 +7,21 @@ To download this example project to your computer, you can either:
 <br>_— or —_
 * Clone this repository to your computer.
 
-## Preparing Qualisys data for Python processing
+## Setup and usage
 
-1. Install Python, two options:
-    1. Install a Python distribution like Anaconda that includes all common dependencies, see https://www.anaconda.com/download/
-    2. Alternatively:
-         - Install Python only (see https://www.python.org/ftp/python/2.7.14/python-2.7.14.msi)
-         - Add numpy and lxml packages (for example using PIP, see https://packaging.python.org/tutorials/installing-packages/)
-2. Install BTK, btk-0.3.0_win32.exe (see https://pypi.python.org/pypi/btk)
-
-Example tested with Anaconda (for Python 2.7, 32bit), alternatively Python 2.7.14 (32bit) with numpy and lxml package.
+1. Install Miniconda installer for Windows and Python 3.9: https://docs.conda.io/en/latest/miniconda.html
+2. Run the installer and when prompted add Anaconda to your PATH environment variable
+3. Open a command line prompt and enter the following:
+    1. `conda create -n python-example python=3.9`
+    2. `conda activate python-example`
+    3. `conda install -c conda-forge ezc3d` (c3d parsing library, see https://github.com/pyomeca/ezc3d)
+    4. `conda install -c anaconda lxml` (xml parsing library)
+4. Open QTM and make sure that the path to `Command Prompt` is set in Project Options/Miscellaneous/Folder Options (the path is usually C:\Windows\System32\cmd.exe)   
+5. Click on `Start Processing` to automatically export c3d files, read the c3d files content and export some data into an xml file. 
 
 ## Resources for using the Qualisys Project Automation Framework (PAF)
 
-The purpose of the ***Project Automation Framework*** (PAF) is to streamline the motion capture process from data collection to the final report. This repository contains an example project that illustrate how PAF can be used to implement custom automated data collection in [Qualisys Track Manager (QTM)](http://www.qualisys.com/software/qualisys-track-manager/), and how QTM can be connected to a processing engine. 
+The purpose of the ***Project Automation Framework*** (PAF) is to streamline the motion capture process from data collection to the final report. This repository contains an example project that illustrate how PAF can be used to implement custom automated data collection in [Qualisys Track Manager (QTM)](http://www.qualisys.com/software/qualisys-track-manager/), and how QTM can be connected to a processing engine.  
 
 ### PAF Documentation
 
