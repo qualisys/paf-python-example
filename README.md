@@ -7,7 +7,7 @@ To download this example project to your computer, you can either:
 <br>_— or —_
 * Clone this repository to your computer.
 
-## Setup and usage
+## Preparing Qualisys data for Python processing
 
 1. Install Miniconda installer for Windows and Python 3.9: https://docs.conda.io/en/latest/miniconda.html
 2. Run the installer and when prompted add Anaconda to your PATH environment variable
