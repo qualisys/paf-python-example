@@ -3,7 +3,7 @@ Package Information:
   Name: Python Example
   Version: 1.0.0
   Required QTM version: 2.16.3600
-  Encoding bytes: €€€€€
+  Encoding bytes: ï¿½ï¿½ï¿½ï¿½ï¿½
 
 Root type: Subject
 Default fields: [Creation date, Creation time]
@@ -46,10 +46,10 @@ Measurements:
 Analyses:
   Processing:
     Type: External program
-    Program display name: Python
+    Program display name: Command Prompt
     Export session: Yes
     Export measurements: c3d
-    Arguments: [$WorkingDirectory$example.py]
+    Arguments: ['/C $TemplateDirectory$\run_python_example.bat']
     Template files: ['*.py']
 
 Fields:
