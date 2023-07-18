@@ -3,13 +3,14 @@ Package Information:
   Name: Python Example
   Version: 1.0.0
   Required QTM version: 2.16.3600
-  Encoding bytes: ï¿½ï¿½ï¿½ï¿½ï¿½
+  Encoding bytes: €€€€€
 
 Root type: Subject
 Default fields: [Creation date, Creation time]
 
 Date format: Iso
 Date separator: Dash
+
 Filename filter: \.(pdf|r3w|cmo|docx)$
 
 Types:
