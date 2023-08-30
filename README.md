@@ -9,14 +9,14 @@ To download this example project to your computer, you can either:
 
 ## Preparing Qualisys data for Python processing
 
-1. Install Miniconda installer for Windows and Python 3.9: https://docs.conda.io/en/latest/miniconda.html
+1. Install Miniconda installer for Windows and Python 3.9: https://docs.conda.io/en/latest/miniconda-other-installer-links.html
 2. Run the installer and when prompted add Anaconda to your PATH environment variable
 3. Open a command line prompt and enter the following:
     1. `conda create -n python-example python=3.9`
     2. `conda activate python-example`
     3. `conda install -c conda-forge ezc3d` (c3d parsing library, see https://github.com/pyomeca/ezc3d)
     4. `conda install -c anaconda lxml` (xml parsing library)
-4. Open QTM and make sure that the path to `Command Prompt` is set in Project Options/Miscellaneous/Folder Options (the path is usually C:\Windows\System32\cmd.exe)   
+4. Open QTM and make sure that the path to `Command Prompt` is set in Project Options\Miscellaneous\Folder Options (the path is usually C:\Windows\System32\cmd.exe)   
 5. Click on `Start Processing` to automatically export c3d files, read the c3d files content and export some data into `output.xml` file. 
 
 ## Resources for using the Qualisys Project Automation Framework (PAF)
