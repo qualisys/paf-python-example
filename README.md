@@ -22,17 +22,18 @@ To download this example project to your computer, you can either:
 
 ## Resources for using the Qualisys Project Automation Framework (PAF)
 
-The purpose of the ***Project Automation Framework*** (PAF) is to streamline the motion capture process from data collection to the final report. This repository contains an example project that illustrate how PAF can be used to implement custom automated data collection in [Qualisys Track Manager (QTM)](http://www.qualisys.com/software/qualisys-track-manager/), and how QTM can be connected to a processing engine.  
+The purpose of the ***Project Automation Framework*** (PAF) is to streamline the motion capture process from data collection to the final report. This repository contains an example project that illustrate how PAF can be used to implement custom automated data collection in [Qualisys Track Manager (QTM)](http://www.qualisys.com/software/qualisys-track-manager/), and how QTM can be connected to a processing engine. 
 
 ### PAF Documentation
 
 The full documentation for PAF development is available here: [PAF Documentation](https://github.com/qualisys/paf-documentation).
 
-
 ### PAF Examples
 
 Our official examples for various processing engines:
 
+- [AnyBody](https://github.com/qualisys/paf-anybody-example)
+- [Cleanse](https://github.com/qualisys/paf-cleanse-example)
 - [ENABLE](https://github.com/qualisys/paf-enable-markerless-example)
 - [Excel](https://github.com/qualisys/paf-excel-example)
 - [Matlab](https://github.com/qualisys/paf-matlab-example)
