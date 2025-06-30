@@ -1,7 +1,7 @@
 # Changelog
 
 ## [1.1.4]
-Tested with QTM 2025.1.15267.
+Tested with Python 3.13 and QTM 2025.1.15267.
 
 ## [1.1.3]
 Tested with QTM 2024.3.14360.
