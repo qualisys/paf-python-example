@@ -13,7 +13,7 @@ To download this example project to your computer, you can either:
 2. Run the installer and when prompted add Conda to your PATH environment variable.
 3. Check that conda is discovered. Open command line prompt and type 'conda --version'. If conda is not found, environment path might not be set correctly. If you do not know where conda is installed, open Anaconda prompt and type 'where conda' and add that path to PATH manually. Sometimes it helps to put path to conda at the top of the list.
 4. Open a command line prompt and enter the following:
-    1. `conda create -n python-example python=3.9`
+    1. `conda create -n python-example python=3.13`
     2. `conda activate python-example`
     3. `conda install -c conda-forge ezc3d` (c3d parsing library, see https://github.com/pyomeca/ezc3d)
     4. `conda install -c anaconda lxml` (xml parsing library)
