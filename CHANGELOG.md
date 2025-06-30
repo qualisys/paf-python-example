@@ -1,7 +1,10 @@
 # Changelog
 
+## [1.1.4]
+Tested with QTM 2025.1.15267.
+
 ## [1.1.3]
-Tested with Theia3D 2024.1 and Visual3D 2024.10.4.
+Tested with QTM 2024.3.14360.
 
 ## [1.1.1]
 Tested with QTM 2023.2.8071.
