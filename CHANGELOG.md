@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.1.5]
+Tested with Python 3.13 and QTM 2026.1 (build 16751).
+
 ## [1.1.4]
 Tested with Python 3.13 and QTM 2025.1.15267.
 
